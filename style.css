@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+.nav-wrapper {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+.nav-wrapper .nav-section {
+  height: 100%;
+  float: left;
+}
+.nav-wrapper .nav-left {
+  position: relative;
+  width: 35%;
+}
+.nav-wrapper .nav-left img {
+  height: 50%;
+  position: relative;
+  left: 10%;
+  top: 20px;
+}
+.nav-wrapper .nav-right {
+  width: 65%;
+  position: relative;
+} 
+.main-nav ul {
+  position: relative;
+  top: 12px;
+}
+.main-nav ul li{
+  float: left;
+  list-style-type: none;
+  margin: 0 12px 0 0;
+  color: #aaaaaa;
+}
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background-image: url("wideopentechimages/background.jpg"); 
+  background-size: 100%;
+  position: relative;
+}
+.jumbotron .header-container {
+  width: 600px;
+  height: 100%;
+  position: relative;
+  top: 30%;
+  left: 25%; 
+  color: #fff;
+  line-height: 1px;
+}
+.jumbotron .header-container h2{
+  font-size: 20px;
+}
+.jumbotron .header-container h1{
+  font-size: 100px;
+}
+.jumbotron .header-container p{
+  font-size: 20px;
+  text-align: center;
+}
+.jumbotron .header-container .words {
+  width: 100%;
+  height: 200px;
+}
+.jumbotron .header-container .btn {
+  background-color:green;
+  width: 350px;
+  height: 50px;
+  border-radius: 30px;
+  color: #fff;
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  padding: 2px 0;
+  margin: 20px 0 0 120px;
+}
+.how-it-works {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 25px;
+  line-height: 10px;
+}
+.logos {
+  background-color: #fff;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.logos .all {
+  height: 70%;
+  width: 1200px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 8px;
+  font-size: 20px;
+}
+.logos .left {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  border-right: solid black 1px;
+  position: relative;
+  text-align: center;
+}
+.logos .mid {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  border-right: solid black 1px;
+  position: relative;
+  text-align: center;
+  margin: 0 0 0 
+}
+.logos .right {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin: 0 0 0 
+}
+.how-can-we-help {
+  width: 900px;
+  height: 550px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.how-can-we-help .top {
+  text-align: center;
+  line-height: 10px;
+  padding: 10px 0;
+}
+.how-can-we-help .top h1 {
+  font-size: 30px;
+}
+.how-can-we-help .top p {
+  font-size: 22px;
+}
+.how-can-we-help .all {
+  height: 100%;
+  width: 100%;
+}
+.how-can-we-help .column {
+  width: calc(50% - 20px);
+  float: left;
+  margin: 0 10px;
+}
+.how-can-we-help .column .box {
+  background-color: white;
+  text-align: center;
+  padding: 8px 0;
+  margin: 10px 0;
+  line-height: 2px;
+}
+.how-can-we-help .contact-us {
+  background-color: green;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+  text-align: center;
+  color: #fff;
+  border-radius: 30px;
+}
+.we-work-with {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 12px 0;
+  font-size: 25px;
+}
+.we-work-with .box {
+  width: 33.3%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.we-work-with .box img {
+  width: 100%;
+  margin: 0;
+}
+.lets-talk {
+  width: 100%;
+  clear: both;
+}
+.lets-talk .top {
+  height: 200px;
+  background-color: #008b8b;
+  color: #fff;
+}
+.lets-talk .top .inner-left {
+  height: 100px;
+  width: 60%;
+  padding: 35px 0 0 12%;
+  line-height: 5px;
+  font-size: 30px;
+  float: left;
+}
+.lets-talk .top .inner-right {
+  width: 40%;
+  float:left;
+  background-color: blue;
+  position: relative;
+}
+.lets-talk .top .inner-right .btn {
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  text-align: center;
+  border-radius: 30px;
+  padding: 1px 0 0 0;
+  position: absolute;
+  top: 60px;
+  right: 20%;
+}
+.close {
+  width: 100%;
+  height: 400px;
+}
+.wilmington {
+  width: 50%;
+  height: 400px;
+  float: left;
+  background-image: url("wideopentechimages/smallbackground1.jpg");
+  background-size: 100%;
+  color: #fff;
+}
+.asheville {
+  width: 50%;
+  height: 400px;
+  background-image: url("wideopentechimages/smallbackground2.jpg");
+  background-size: 100%;
+  float: left;
+  color: #fff;
+}
+.wilmington .inner-info {
+  width: 60%;
+  height: 40%;
+  background-color: black;
+  opacity: .6;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  line-height: 8px;
+  padding: 5px 0 0 20px;
+}
+.asheville .inner-info {
+  width: 60%;
+  height: 40%;
+  background-color: black;
+  opacity: .6;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  line-height: 8px;
+  padding: 5px 0 0 20px;
+}
+@media (max-width: 1000px) {
+  .main-nav {
+    display: none;
+  }
+  .nav-wrapper .nav-left img {
+    left: 30%;
+  }
+  .jumbotron .header-container .btn {
+    width: 600px;
+    margin: 20px 0 0 0;
+  }
+}
