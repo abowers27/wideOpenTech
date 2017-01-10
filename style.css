@@ -19,17 +19,18 @@ body {
 }
 .nav-wrapper .nav-left {
   position: relative;
-  width: 35%;
+  width: 40%;
 }
 .nav-wrapper .nav-left img {
   height: 50%;
   position: relative;
-  left: 10%;
+  left: 20%;
   top: 20px;
 }
 .nav-wrapper .nav-right {
-  width: 65%;
+  width: 60%;
   position: relative;
+  font-family: lato;
 } 
 .main-nav ul {
   position: relative;
@@ -49,13 +50,15 @@ body {
   position: relative;
 }
 .jumbotron .header-container {
-  width: 600px;
+  width: 475px;
   height: 100%;
   position: relative;
   top: 30%;
-  left: 25%; 
+  left: 50%; 
   color: #fff;
-  line-height: 1px;
+  transform: translate(-50%, 0);
+  line-height: 0px;
+  font-family: Oswald;
 }
 .jumbotron .header-container h2{
   font-size: 20px;
@@ -72,8 +75,8 @@ body {
   height: 200px;
 }
 .jumbotron .header-container .btn {
-  background-color:green;
-  width: 350px;
+  background-color: #bdd436;
+  width: 320px;
   height: 50px;
   border-radius: 30px;
   color: #fff;
@@ -81,13 +84,16 @@ body {
   bottom: 0px;
   text-align: center;
   padding: 2px 0;
-  margin: 20px 0 0 120px;
+  margin: 20px 0 0 80px;
 }
 .how-it-works {
   text-align: center;
   padding: 30px 0;
   font-size: 25px;
   line-height: 10px;
+}
+.how-it-works p {
+  font-family: open sans;
 }
 .logos {
   background-color: #fff;
@@ -167,7 +173,7 @@ body {
   line-height: 2px;
 }
 .how-can-we-help .contact-us {
-  background-color: green;
+  background-color: #bdd436;
   height: 50px;
   width: 200px;
   position: absolute;
@@ -220,7 +226,7 @@ body {
 .lets-talk .top .inner-right .btn {
   width: 150px;
   height: 40px;
-  background-color: green;
+  background-color:#bdd436;
   text-align: center;
   border-radius: 30px;
   padding: 1px 0 0 0;
@@ -282,7 +288,7 @@ body {
     left: 30%;
   }
   .jumbotron .header-container .btn {
-    width: 600px;
+    width: 460px;
     margin: 20px 0 0 0;
   }
 }
